@@ -11,8 +11,8 @@ from typing import Optional
 
 # Load environment variables
 load_dotenv()
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
-LANGFLOW_TOKEN = os.getenv("LANGFLOW_TOKEN")
+TOGETHER_API_KEY = st.secrets["TOGETHER_API_KEY"]
+LANGFLOW_TOKEN = st.secrets["LANGFLOW_TOKEN"]
 
 if TOGETHER_API_KEY is None:
     raise ValueError("TOGETHER_API_KEY is not set. Check your .env file.")
