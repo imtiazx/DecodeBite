@@ -11,8 +11,8 @@ from typing import Optional
 
 # Load environment variables
 load_dotenv()
-TOGETHER_API_KEY = st.secrets["TOGETHER_API_KEY"]
-LANGFLOW_TOKEN = st.secrets["LANGFLOW_TOKEN"]
+TOGETHER_API_KEY = "d4b13cb239361220830c7f8b821e18863261e433f073da4104f928b1561b19b6" # will be removed shortly
+LANGFLOW_TOKEN = "AstraCS:tfilaURzazPSoCJNZMOnYCeF:84cef571eafb93b4af593f6740d5f51bae85461d6bd913ef2f28948c89d9ffb7" # will be removed shortly
 
 if TOGETHER_API_KEY is None:
     raise ValueError("TOGETHER_API_KEY is not set. Check your .env file.")
