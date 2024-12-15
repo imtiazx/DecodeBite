@@ -8,15 +8,6 @@ DecodeBite helps users analyze packaged food labels by extracting ingredients an
 - **Risk Level Categorization**: The extracted ingredients are analyzed and categorized into risk levels to help users make informed decisions about the food product.
 - **AI Chat**: Users can interact with AI to ask questions about food additives, ingredient safety, and general food-related queries.
 
-## Technologies Used
-
-- **Streamlit**: Web app framework for easy UI development.
-- **OpenAI API**: Used for generative AI to analyze ingredients and provide responses to user queries.
-- **Pillow**: Image processing library used to handle uploaded food label images.
-- **Python-dotenv**: Manages environment variables for API keys and other settings.
-- **Together**: Provides additional AI capabilities and integration.
-- **Requests**: Used for making HTTP requests to APIs.
-
 ## Installation
 
 Follow these steps to set up the project locally.
