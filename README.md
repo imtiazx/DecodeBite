@@ -40,8 +40,8 @@ This repository contains a Streamlit application to analyze packaged food ingred
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone [https://github.com/<your-username>/<repo-name>.git](https://github.com/imtiazx/DecodeBite.git)
+   cd DecodeBite
    ```
 
 2. Install dependencies:
