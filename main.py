@@ -7,7 +7,7 @@ from together import Together
 import json
 
 # Load environment vairables
-TOGETHER_API_KEY = st.secrets["TOGETHER_API"]
+TOGETHER_API_KEY = st.secrets["TOGETHER_API_KEY"]
 LANGFLOW_TOKEN_ANALYSIS = st.secrets["LANGFLOW_TOKEN_ANALYSIS"]
 LANGFLOW_TOKEN_CHAT = st.secrets["LANGFLOW_TOKEN_CHAT"]
 
