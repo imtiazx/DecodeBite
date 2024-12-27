@@ -2,6 +2,11 @@
 
 This repository contains a Streamlit application to analyze packaged food ingredients using advanced AI tools. The app allows users to upload images or labels of food ingredient lists, extracts text information using the Together API with Ollama OCR, categorizes ingredients based on potential harm, and provides answers to user queries about food additives using Multi-Query RAG.
 
+### Try the Streamlit App
+
+Curious to see the app in action? [Click here to try it out!](https://decodebite.streamlit.app/)
+
+
 ---
 
 ## Features
